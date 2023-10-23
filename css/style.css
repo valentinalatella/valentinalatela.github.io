@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(16, 60, 85);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color:  rgb(24, 71, 99);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(16, 60, 85);
+}
+
+.title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab' , serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.form{
+    margin-top: 90px;
+    border-radius: 20px;
+    background-color: rgb(24, 86, 119);
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+.formulario{
+    font-size: 20px;
+    margin: 5px;
+}
+
+form{
+    padding: 15px;
+}
+
+::placeholder{
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    float: right;
+}
+
+.enviar{
+    margin-top: 15px;
+}
